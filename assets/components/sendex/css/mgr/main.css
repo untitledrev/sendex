@@ -1,0 +1,96 @@
+/* Grid */
+.sendex-sendex-row-disabled { font-style: italic; opacity: .6; color: #555; }
+.x-grid3-col-actions { padding: 3px 0 3px 5px; }
+
+/* Actions */
+.action-red { color: darkred !important; }
+.action-green { color: darkgreen !important; }
+.action-blue { color: cadetblue !important; }
+.action-yellow { color: goldenrod !important; }
+.action-gray { color: dimgray !important; }
+ul.sendex-row-actions { margin: 0; padding: 0; list-style: none; }
+ul.sendex-row-actions li { float: left; }
+ul.sendex-row-actions .sendex-btn { padding: 5px; margin-right: 2px; min-width: 26px; font-size: inherit; }
+
+/* Action menu */
+a.x-menu-item .x-menu-item-text, a.x-menu-item .x-menu-item-text .icon { cursor: pointer; }
+a.x-menu-item .x-menu-item-text .icon { line-height: 16px; top: auto; }
+.x-menu-list .icon { min-width: 1em; text-align: center; }
+.x-menu-list-item:hover .icon { color: inherit !important; }
+ul.sendex-row-actions .actions-menu { width: 40px; }
+ul.sendex-row-actions .actions-menu:after { content: " \f107"; }
+
+/* Search field */
+.x-field-search-clear,
+.x-field-search-go { border-left: 1px solid #e4e4e4 !important; }
+.x-field-search-clear:hover,
+.x-field-search-go:hover { border-left-color: transparent !important; }
+.x-field-search-clear:before { content: '\f00d' !important; }
+.x-field-search-go { right: 31px !important; border-radius: 0 !important; }
+.x-field-search-go:before { content: '\f002' !important; }
+
+/* Buttons */
+.sendex-btn { display: inline-block; margin-bottom: 0; font-weight: normal; text-align: center; vertical-align: middle; -ms-touch-action: manipulation; touch-action: manipulation; cursor: pointer; background-image: none; border: 1px solid transparent; white-space: nowrap; padding: 6px 12px; font-size: 14px; line-height: 1.42857143; border-radius: 4px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none }
+.sendex-btn:focus, .sendex-btn:active:focus, .sendex-btn.active:focus, .sendex-btn.focus, .sendex-btn:active.focus, .sendex-btn.active.focus { outline: thin dotted; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px }
+.sendex-btn:hover, .sendex-btn:focus, .sendex-btn.focus { color: #333; text-decoration: none }
+.sendex-btn:active, .sendex-btn.active { outline: 0; background-image: none; -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) }
+.sendex-btn.disabled, .sendex-btn[disabled], fieldset[disabled] .sendex-btn { cursor: not-allowed; opacity: .65; filter: alpha(opacity=65); -webkit-box-shadow: none; box-shadow: none }
+a.sendex-btn.disabled, fieldset[disabled] a.sendex-btn { pointer-events: none }
+.sendex-btn-default { color: #333; background-color: #fff; border-color: #ccc }
+.sendex-btn-default:focus, .sendex-btn-default.focus { color: #333; background-color: #e6e6e6; border-color: #8c8c8c }
+.sendex-btn-default:hover { color: #333; background-color: #e6e6e6; border-color: #adadad }
+.sendex-btn-default:active, .sendex-btn-default.active, .open > .dropdown-toggle.sendex-btn-default { color: #333; background-color: #e6e6e6; border-color: #adadad }
+.sendex-btn-default:active:hover, .sendex-btn-default.active:hover, .open > .dropdown-toggle.sendex-btn-default:hover, .sendex-btn-default:active:focus, .sendex-btn-default.active:focus, .open > .dropdown-toggle.sendex-btn-default:focus, .sendex-btn-default:active.focus, .sendex-btn-default.active.focus, .open > .dropdown-toggle.sendex-btn-default.focus { color: #333; background-color: #d4d4d4; border-color: #8c8c8c }
+.sendex-btn-default:active, .sendex-btn-default.active, .open > .dropdown-toggle.sendex-btn-default { background-image: none }
+.sendex-btn-default.disabled:hover, .sendex-btn-default[disabled]:hover, fieldset[disabled] .sendex-btn-default:hover, .sendex-btn-default.disabled:focus, .sendex-btn-default[disabled]:focus, fieldset[disabled] .sendex-btn-default:focus, .sendex-btn-default.disabled.focus, .sendex-btn-default[disabled].focus, fieldset[disabled] .sendex-btn-default.focus { background-color: #fff; border-color: #ccc }
+.sendex-btn-default .badge { color: #fff; background-color: #333 }
+.sendex-btn-primary { color: #fff; background-color: #337ab7; border-color: #2e6da4 }
+.sendex-btn-primary:focus, .sendex-btn-primary.focus { color: #fff; background-color: #286090; border-color: #122b40 }
+.sendex-btn-primary:hover { color: #fff; background-color: #286090; border-color: #204d74 }
+.sendex-btn-primary:active, .sendex-btn-primary.active, .open > .dropdown-toggle.sendex-btn-primary { color: #fff; background-color: #286090; border-color: #204d74 }
+.sendex-btn-primary:active:hover, .sendex-btn-primary.active:hover, .open > .dropdown-toggle.sendex-btn-primary:hover, .sendex-btn-primary:active:focus, .sendex-btn-primary.active:focus, .open > .dropdown-toggle.sendex-btn-primary:focus, .sendex-btn-primary:active.focus, .sendex-btn-primary.active.focus, .open > .dropdown-toggle.sendex-btn-primary.focus { color: #fff; background-color: #204d74; border-color: #122b40 }
+.sendex-btn-primary:active, .sendex-btn-primary.active, .open > .dropdown-toggle.sendex-btn-primary { background-image: none }
+.sendex-btn-primary.disabled:hover, .sendex-btn-primary[disabled]:hover, fieldset[disabled] .sendex-btn-primary:hover, .sendex-btn-primary.disabled:focus, .sendex-btn-primary[disabled]:focus, fieldset[disabled] .sendex-btn-primary:focus, .sendex-btn-primary.disabled.focus, .sendex-btn-primary[disabled].focus, fieldset[disabled] .sendex-btn-primary.focus { background-color: #337ab7; border-color: #2e6da4 }
+.sendex-btn-primary .badge { color: #337ab7; background-color: #fff }
+.sendex-btn-success { color: #fff; background-color: #5cb85c; border-color: #4cae4c }
+.sendex-btn-success:focus, .sendex-btn-success.focus { color: #fff; background-color: #449d44; border-color: #255625 }
+.sendex-btn-success:hover { color: #fff; background-color: #449d44; border-color: #398439 }
+.sendex-btn-success:active, .sendex-btn-success.active, .open > .dropdown-toggle.sendex-btn-success { color: #fff; background-color: #449d44; border-color: #398439 }
+.sendex-btn-success:active:hover, .sendex-btn-success.active:hover, .open > .dropdown-toggle.sendex-btn-success:hover, .sendex-btn-success:active:focus, .sendex-btn-success.active:focus, .open > .dropdown-toggle.sendex-btn-success:focus, .sendex-btn-success:active.focus, .sendex-btn-success.active.focus, .open > .dropdown-toggle.sendex-btn-success.focus { color: #fff; background-color: #398439; border-color: #255625 }
+.sendex-btn-success:active, .sendex-btn-success.active, .open > .dropdown-toggle.sendex-btn-success { background-image: none }
+.sendex-btn-success.disabled:hover, .sendex-btn-success[disabled]:hover, fieldset[disabled] .sendex-btn-success:hover, .sendex-btn-success.disabled:focus, .sendex-btn-success[disabled]:focus, fieldset[disabled] .sendex-btn-success:focus, .sendex-btn-success.disabled.focus, .sendex-btn-success[disabled].focus, fieldset[disabled] .sendex-btn-success.focus { background-color: #5cb85c; border-color: #4cae4c }
+.sendex-btn-success .badge { color: #5cb85c; background-color: #fff }
+.sendex-btn-info { color: #fff; background-color: #5bc0de; border-color: #46b8da }
+.sendex-btn-info:focus, .sendex-btn-info.focus { color: #fff; background-color: #31b0d5; border-color: #1b6d85 }
+.sendex-btn-info:hover { color: #fff; background-color: #31b0d5; border-color: #269abc }
+.sendex-btn-info:active, .sendex-btn-info.active, .open > .dropdown-toggle.sendex-btn-info { color: #fff; background-color: #31b0d5; border-color: #269abc }
+.sendex-btn-info:active:hover, .sendex-btn-info.active:hover, .open > .dropdown-toggle.sendex-btn-info:hover, .sendex-btn-info:active:focus, .sendex-btn-info.active:focus, .open > .dropdown-toggle.sendex-btn-info:focus, .sendex-btn-info:active.focus, .sendex-btn-info.active.focus, .open > .dropdown-toggle.sendex-btn-info.focus { color: #fff; background-color: #269abc; border-color: #1b6d85 }
+.sendex-btn-info:active, .sendex-btn-info.active, .open > .dropdown-toggle.sendex-btn-info { background-image: none }
+.sendex-btn-info.disabled:hover, .sendex-btn-info[disabled]:hover, fieldset[disabled] .sendex-btn-info:hover, .sendex-btn-info.disabled:focus, .sendex-btn-info[disabled]:focus, fieldset[disabled] .sendex-btn-info:focus, .sendex-btn-info.disabled.focus, .sendex-btn-info[disabled].focus, fieldset[disabled] .sendex-btn-info.focus { background-color: #5bc0de; border-color: #46b8da }
+.sendex-btn-info .badge { color: #5bc0de; background-color: #fff }
+.sendex-btn-warning { color: #fff; background-color: #f0ad4e; border-color: #eea236 }
+.sendex-btn-warning:focus, .sendex-btn-warning.focus { color: #fff; background-color: #ec971f; border-color: #985f0d }
+.sendex-btn-warning:hover { color: #fff; background-color: #ec971f; border-color: #d58512 }
+.sendex-btn-warning:active, .sendex-btn-warning.active, .open > .dropdown-toggle.sendex-btn-warning { color: #fff; background-color: #ec971f; border-color: #d58512 }
+.sendex-btn-warning:active:hover, .sendex-btn-warning.active:hover, .open > .dropdown-toggle.sendex-btn-warning:hover, .sendex-btn-warning:active:focus, .sendex-btn-warning.active:focus, .open > .dropdown-toggle.sendex-btn-warning:focus, .sendex-btn-warning:active.focus, .sendex-btn-warning.active.focus, .open > .dropdown-toggle.sendex-btn-warning.focus { color: #fff; background-color: #d58512; border-color: #985f0d }
+.sendex-btn-warning:active, .sendex-btn-warning.active, .open > .dropdown-toggle.sendex-btn-warning { background-image: none }
+.sendex-btn-warning.disabled:hover, .sendex-btn-warning[disabled]:hover, fieldset[disabled] .sendex-btn-warning:hover, .sendex-btn-warning.disabled:focus, .sendex-btn-warning[disabled]:focus, fieldset[disabled] .sendex-btn-warning:focus, .sendex-btn-warning.disabled.focus, .sendex-btn-warning[disabled].focus, fieldset[disabled] .sendex-btn-warning.focus { background-color: #f0ad4e; border-color: #eea236 }
+.sendex-btn-warning .badge { color: #f0ad4e; background-color: #fff }
+.sendex-btn-danger { color: #fff; background-color: #d9534f; border-color: #d43f3a }
+.sendex-btn-danger:focus, .sendex-btn-danger.focus { color: #fff; background-color: #c9302c; border-color: #761c19 }
+.sendex-btn-danger:hover { color: #fff; background-color: #c9302c; border-color: #ac2925 }
+.sendex-btn-danger:active, .sendex-btn-danger.active, .open > .dropdown-toggle.sendex-btn-danger { color: #fff; background-color: #c9302c; border-color: #ac2925 }
+.sendex-btn-danger:active:hover, .sendex-btn-danger.active:hover, .open > .dropdown-toggle.sendex-btn-danger:hover, .sendex-btn-danger:active:focus, .sendex-btn-danger.active:focus, .open > .dropdown-toggle.sendex-btn-danger:focus, .sendex-btn-danger:active.focus, .sendex-btn-danger.active.focus, .open > .dropdown-toggle.sendex-btn-danger.focus { color: #fff; background-color: #ac2925; border-color: #761c19 }
+.sendex-btn-danger:active, .sendex-btn-danger.active, .open > .dropdown-toggle.sendex-btn-danger { background-image: none }
+.sendex-btn-danger.disabled:hover, .sendex-btn-danger[disabled]:hover, fieldset[disabled] .sendex-btn-danger:hover, .sendex-btn-danger.disabled:focus, .sendex-btn-danger[disabled]:focus, fieldset[disabled] .sendex-btn-danger:focus, .sendex-btn-danger.disabled.focus, .sendex-btn-danger[disabled].focus, fieldset[disabled] .sendex-btn-danger.focus { background-color: #d9534f; border-color: #d43f3a }
+.sendex-btn-danger .badge { color: #d9534f; background-color: #fff }
+.sendex-btn-link { color: #337ab7; font-weight: normal; border-radius: 0 }
+.sendex-btn-link, .sendex-btn-link:active, .sendex-btn-link.active, .sendex-btn-link[disabled], fieldset[disabled] .sendex-btn-link { background-color: transparent; -webkit-box-shadow: none; box-shadow: none }
+.sendex-btn-link, .sendex-btn-link:hover, .sendex-btn-link:focus, .sendex-btn-link:active { border-color: transparent }
+.sendex-btn-link:hover, .sendex-btn-link:focus { color: #23527c; text-decoration: underline; background-color: transparent }
+.sendex-btn-link[disabled]:hover, fieldset[disabled] .sendex-btn-link:hover, .sendex-btn-link[disabled]:focus, fieldset[disabled] .sendex-btn-link:focus { color: #777; text-decoration: none }
+.sendex-btn-lg { padding: 10px 16px; font-size: 18px; line-height: 1.3333333; border-radius: 6px }
+.sendex-btn-sm { padding: 5px 10px; font-size: 12px; line-height: 1.5; border-radius: 3px }
+.sendex-btn-xs { padding: 1px 5px; font-size: 12px; line-height: 1.5; border-radius: 3px }
+.sendex-btn-block { display: block; width: 100% }
+.sendex-btn-block + .sendex-btn-block { margin-top: 5px }
